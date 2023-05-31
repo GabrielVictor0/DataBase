@@ -1,0 +1,32 @@
+@model Equipe
+
+@{
+    ViewData["Title"] = "Equipe";
+}
+
+<h1> Tela de Equipes</h1>
+
+@* Criando tabela de equipe *@
+<table class="table table-striped table-responsive">
+    @* cabeça da tabela *@
+    <th>
+        <th>Id</th>
+        <th>Nome</th>
+        <th>Imagem</th>
+    </th>
+
+    @* corpo da tabela *@
+    <tbody>
+
+        @* viewbag é um objeto da classe equipe *@
+        @foreach (Equipe equipe in ViewBag.Equipe)
+        {
+        <tr>
+            <td>@equipe.IdEquipe</td>
+            <td>@equipe.Nome</td>
+            <td>@equipe.Imagem</td>
+        </tr>
+        }
+
+    </tbody>
+</table>
