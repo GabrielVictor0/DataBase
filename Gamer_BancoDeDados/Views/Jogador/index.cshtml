@@ -1,0 +1,36 @@
+@model Jogador
+
+@{
+    ViewData["Title"] = "Jogador";
+}
+
+<h1> Tela de Jogadores</h1>
+
+<form method="post" action="@Url.Action("Cadastrar")" enctype="multipart/form-data">
+    <label for="">Nome</label>
+    <input type="text" name="Nome" required>
+
+    <label for="">Email</label>
+    <input type="text" name="Email">
+</form>
+
+<table class="table table-striped table-responsive">
+    <tr>
+        <th>Id</th>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>IdEquipe</th>
+    </tr>
+</table>
+
+<tbody>
+    @foreach (Jogador jogador in ViewBag.Jogador)
+    {
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    }
+</tbody>

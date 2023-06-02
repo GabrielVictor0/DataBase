@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\47349403801\\Desktop\\Gamer_BancoDeDados\\Gamer_BancoDeDados.csproj": {}
+    "C:\\Users\\47349403801\\Desktop\\DataBase\\Gamer_BancoDeDados\\Gamer_BancoDeDados.csproj": {}
   },
   "projects": {
-    "C:\\Users\\47349403801\\Desktop\\Gamer_BancoDeDados\\Gamer_BancoDeDados.csproj": {
+    "C:\\Users\\47349403801\\Desktop\\DataBase\\Gamer_BancoDeDados\\Gamer_BancoDeDados.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\47349403801\\Desktop\\Gamer_BancoDeDados\\Gamer_BancoDeDados.csproj",
+        "projectUniqueName": "C:\\Users\\47349403801\\Desktop\\DataBase\\Gamer_BancoDeDados\\Gamer_BancoDeDados.csproj",
         "projectName": "Gamer_BancoDeDados",
-        "projectPath": "C:\\Users\\47349403801\\Desktop\\Gamer_BancoDeDados\\Gamer_BancoDeDados.csproj",
+        "projectPath": "C:\\Users\\47349403801\\Desktop\\DataBase\\Gamer_BancoDeDados\\Gamer_BancoDeDados.csproj",
         "packagesPath": "C:\\Users\\47349403801\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\47349403801\\Desktop\\Gamer_BancoDeDados\\obj\\",
+        "outputPath": "C:\\Users\\47349403801\\Desktop\\DataBase\\Gamer_BancoDeDados\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\47349403801\\AppData\\Roaming\\NuGet\\NuGet.Config",

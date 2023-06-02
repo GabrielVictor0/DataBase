@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "47JcLYCSgCotYyRsUZLYs4DcoURdoBqEkFkSfkk07vVrFq4yifzkFQ3YgVdwZg8vM2KoWXPD/6VB1YPU8xq7Mg==",
+  "dgSpecHash": "kTnI7s5RMqrE7YKA6BmUjQ880ohbIzO6g3DyKFwP9CpGh82eve0ghbC3aC0CcdAWtv3DosNvJVkLBOTQ+cMJ3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\47349403801\\Desktop\\Gamer_BancoDeDados\\Gamer_BancoDeDados.csproj",
+  "projectFilePath": "C:\\Users\\47349403801\\Desktop\\DataBase\\Gamer_BancoDeDados\\Gamer_BancoDeDados.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\47349403801\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\47349403801\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
