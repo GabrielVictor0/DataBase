@@ -1,0 +1,57 @@
+@model Jogador
+
+<link rel="stylesheet" href="~/css/Header-Footer.css">
+<link rel="stylesheet" href="~/css/jogadores.css">
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<!-- MAIN -->
+
+    <main>
+        <section class="container-grid cadastro-equipes">
+
+    @if (ViewBag.UserName == null)
+    {
+        <a asp-area="" asp-controller="Login" asp-action="Index">
+        </a>
+    }   
+    else
+    {
+            <form method="post" action="@Url.Action("Atualizar")" class="frm-cad-equipe">
+                <div class="cadequipe-titulo">
+                    <h1>Ediçaõ de jogador</h1>
+                    <hr>
+                </div>
+
+                <input type="hidden" name="IdJogador" value="@ViewBag.Jogador.IdJogador">
+
+                <input class="campo-entrada" type="text" id="nome-jogador" placeholder="Digite o nome do Jogador:"
+                    name="Nome" value="@ViewBag.Jogador.Nome">
+
+                <input class="campo-entrada" type="email" id="email-jogador" placeholder="Digite o Email do Jogador:"
+                    name="Email" value="@ViewBag.Jogador.Email">
+                    
+                <select name="IdEquipe" class="campo-entrada" id="equipe-select">
+                        <option value="0">Selecione uma opção: </option>
+                        @foreach (Equipe equipe in ViewBag.Equipe)
+                        {
+                            @if (equipe.IdEquipe == @ViewBag.Jogador.IdEquipe)
+                            {   
+                                <option value="@equipe.IdEquipe" selected>@equipe.Nome</option>
+                            }
+                            else
+                            {
+                                <option value="@equipe.IdEquipe">@equipe.Nome</option>
+                            }
+                        }
+                </select>
+                <button type="submit">Atualizar</button>
+
+            </form>
+
+    }
+            </section>
+    </main>
+
